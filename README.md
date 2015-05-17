@@ -1,6 +1,6 @@
-# Node App!!!
+# Inception!!!
 
-Simple Node, AngularJS and Sockets Multi-Player Game
+Starting point for Node Apps
 
 ### Installation
   - install Node
@@ -9,6 +9,11 @@ Simple Node, AngularJS and Sockets Multi-Player Game
   - run `npm start`
   - open http://localhost:3001 in the browser
   - have fun!!!
+
+### Contains
+  - Node server
+  - AngularJS client
+  - Some nice to have dependencies (Bootstrap, Underscore, Socket.io etc.)
 
 License
 ----
