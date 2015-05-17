@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app" ng-controller="AppController" ng-keyup="move($event)"
+      ng-swipe-up="move($event, KEY_CODE.UP)" ng-swipe-down="move($event, KEY_CODE.DOWN)"
+      ng-swipe-left="move($event, KEY_CODE.LEFT)" ng-swipe-right="move($event, KEY_CODE.RIGHT)">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" ng-href="favicons/{{ playerType }}.ico" sizes="16x16">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>{{ playerType | uppercase }} Whoop!</title>
+
+    <!-- Vendor CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+<body>
+
+<h3>Hello!!!</h3>
+
+<!-- Vendor JS -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/underscore/underscore-min.js"></script>
+<script src="mixed_components/socket-io/socket.io.client.min.js"></script>
+<script src="bower_components/angular-socket-io/socket.min.js"></script>
+<script src="bower_components/angular-swipe/dist/angular-swipe.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/app.js"></script>
+
+</body>
+</html>

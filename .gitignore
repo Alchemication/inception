@@ -1,0 +1,14 @@
+lib-cov
+*.seed
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.idea
+pids
+logs
+results
+npm-debug.log
+node_modules
+public/bower_components
